@@ -27,7 +27,7 @@ const archivoBlack = Archivo_Black({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://mellisa-myres.com'),
+  metadataBase: new URL('https://mellisamyres.site'),
   title: {
     default: 'Mellisa Myres - Business Ideas & Marketing Frameworks',
     template: '%s | Mellisa Myres',
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://mellisa-myres.com',
+    url: 'https://mellisamyres.site',
     siteName: 'Mellisa Myres',
     title: 'Mellisa Myres - Business Ideas & Marketing Frameworks',
     description: 'Business ideas and marketing frameworks to help you sell on the internet.',

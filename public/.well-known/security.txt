@@ -1,0 +1,3 @@
+Contact: mailto:mellisamyres901@gmail.com
+Preferred-Languages: en
+Canonical: https://mellisa-myres.com/.well-known/security.txt

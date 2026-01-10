@@ -1,0 +1,26 @@
+# Mellisa Myres - Personal Website
+
+## About
+This is the personal website of Mellisa Myres, founder of Strawlo. The site shares business ideas, marketing frameworks, and insights to help you sell on the internet.
+
+## Site Structure
+- / - Homepage with bio, latest blog posts, and portfolio companies
+- /blog - Blog listing with categories: Business, Marketing, AI, Stocks & Investments
+- /blog/[slug] - Individual blog posts
+- /about - About page with detailed bio
+
+## Contact
+- Email: mellisamyres901@gmail.com
+- Twitter: https://x.com/mellisacodes
+- LinkedIn: https://www.linkedin.com/in/mellisa-myres/
+- Instagram: https://www.instagram.com/mellisaamimi/
+
+## Companies
+- Strawlo (https://strawlo.com) - Building innovative digital products
+- Marketing Crafted - Coming soon
+
+## Content Focus
+- Business ideas and entrepreneurship
+- Marketing frameworks and strategies
+- AI and technology
+- Stocks and investments

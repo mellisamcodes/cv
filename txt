@@ -1,0 +1,86 @@
+Headings
+
+# Heading 1
+## Heading 2
+### Heading 3
+#### Heading 4
+##### Heading 5
+###### Heading 6
+Text Formatting
+
+**bold text**
+*italic text*
+***bold and italic***
+~~strikethrough~~
+<mark>highlighted text</mark>
+<sup>superscript</sup>
+<sub>subscript</sub>
+<small>small text</small>
+<abbr title="Abbreviation">ABBR</abbr>
+Links & Images
+
+[Link text](https://example.com)
+![Alt text](image.jpg)
+
+<figure>
+  <img src="image.jpg" alt="description">
+  <figcaption>Image caption here</figcaption>
+</figure>
+Lists
+
+- Unordered item
+- Another item
+  - Nested item
+
+1. Ordered item
+2. Another item
+   1. Nested item
+
+- [ ] Task item unchecked
+- [x] Task item checked
+Definition List
+
+<dl>
+  <dt>Term</dt>
+  <dd>Definition of the term</dd>
+</dl>
+Blockquotes
+
+> This is a quote
+> 
+> <cite>Author Name</cite>
+Code
+
+`inline code`
+
+​```javascript
+const code = "block";
+​```
+Keyboard Input
+
+Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy
+Tables
+
+| Header 1 | Header 2 |
+|----------|----------|
+| Cell 1   | Cell 2   |
+| Cell 3   | Cell 4   |
+Horizontal Rule
+
+---
+Collapsible Section
+
+<details>
+  <summary>Click to expand</summary>
+  Hidden content here
+</details>
+Video/Embeds
+
+<video src="video.mp4" controls></video>
+
+<iframe src="https://youtube.com/embed/xxx"></iframe>
+Footnotes
+
+Here's a sentence with a footnote[^1].
+
+[^1]: This is the footnote content.

@@ -1,10 +1,15 @@
 import Link from 'next/link'
+import dynamic from 'next/dynamic'
 import Sidebar from '@/components/Sidebar'
 import HeroSection from '@/components/HeroSection'
 import GuidesSection from '@/components/GuidesSection'
 import CompaniesSection from '@/components/CompaniesSection'
 import Footer from '@/components/Footer'
-import ThemeToggle from '@/components/ThemeToggle'
+
+const ThemeToggle = dynamic(() => import('@/components/ThemeToggle'), {
+  ssr: false,
+  loading: () => <div className="w-9 h-9" />,
+})
 
 export default function Home() {
   return (

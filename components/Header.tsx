@@ -2,7 +2,12 @@
 
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
-import ThemeToggle from './ThemeToggle'
+import dynamic from 'next/dynamic'
+
+const ThemeToggle = dynamic(() => import('./ThemeToggle'), {
+  ssr: false,
+  loading: () => <div className="w-9 h-9" />,
+})
 
 export default function Header() {
   const pathname = usePathname()

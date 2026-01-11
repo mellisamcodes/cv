@@ -118,7 +118,7 @@ a:not(.no-highlight):hover {
 
 /* Prose/Markdown Content Styling */
 .prose-content {
-  @apply text-gray-700 dark:text-gray-300 leading-relaxed;
+  @apply text-gray-700 dark:text-gray-300 leading-relaxed font-sans;
   font-size: 1.125rem;
   line-height: 1.75;
 }

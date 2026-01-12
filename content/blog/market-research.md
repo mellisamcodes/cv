@@ -2,7 +2,7 @@
 title: "What Is Market Research? A Simple Guide to Understanding How Companies Learn About You"
 description: "Discover what market research really is! Learn how companies like Nike, Netflix, and Coca-Cola use research to understand what you want."
 category: "marketing"
-date: "2026-01-02"
+date: "2026-01-12"
 image: "https://i.postimg.cc/Qt3KRKjw/image.png"
 ---
 

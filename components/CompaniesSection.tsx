@@ -22,7 +22,8 @@ export default function CompaniesSection() {
             />
             <h3 className="font-archivo text-xl">Strawlo</h3>
           </div>
-          <p className="text-gray-600 dark:text-gray-400 text-sm">Building innovative digital products for the modern web</p>
+          <p className="text-gray-600 dark:text-gray-400 text-sm">Africa's easiest way to
+sell online</p>
         </a>
 
         {/* Marketing Crafted */}
@@ -46,7 +47,7 @@ export default function CompaniesSection() {
               coming soon
             </span>
           </div>
-          <p className="text-gray-600 dark:text-gray-400 text-sm">Crafting marketing strategies that drive real results</p>
+          <p className="text-gray-600 dark:text-gray-400 text-sm">The most comprehensive library of proven marketing strategies on the internet</p>
         </div>
       </div>
     </section>

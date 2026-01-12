@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import SocialLinks from '@/components/SocialLinks'
 import Header from '@/components/Header'
+import BackToTop from '@/components/BackToTop'
 import {
   getPostBySlug,
   getPostWithHtml,
@@ -172,6 +173,9 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
           </p>
         </div>
       </footer>
+
+      {/* Back to Top Button - Mobile Only */}
+      <BackToTop />
     </div>
   )
 }

@@ -3,4 +3,4 @@ Allow: /
 Disallow: /.next/
 Disallow: /_next/
 
-Sitemap: https://mellisa-myres.com/sitemap.xml
+Sitemap: https://mellisamyres.site/sitemap.xml

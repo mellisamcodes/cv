@@ -20,7 +20,7 @@ export default function Header() {
   }
 
   return (
-    <header className="px-6 py-6 lg:px-12">
+    <header className="px-6 py-6 lg:px-12" suppressHydrationWarning>
       <div className="max-w-5xl mx-auto flex items-center justify-between">
         <Link href="/" className="font-handwritten text-2xl no-highlight">
           Mellisa Myres

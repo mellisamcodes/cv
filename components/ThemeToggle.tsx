@@ -12,20 +12,19 @@ export default function ThemeToggle() {
     setMounted(true)
   }, [])
 
-  if (!mounted) {
-    return <div className="w-9 h-9" />
-  }
-
   return (
     <button
-      onClick={() => setTheme(resolvedTheme === 'dark' ? 'light' : 'dark')}
-      className="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors no-highlight"
+      onClick={() => mounted && setTheme(resolvedTheme === 'dark' ? 'light' : 'dark')}
+      className="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors no-highlight w-9 h-9 flex items-center justify-center"
       aria-label="Toggle dark mode"
+      suppressHydrationWarning
     >
-      {resolvedTheme === 'dark' ? (
-        <Sun size={20} className="text-gray-600 dark:text-gray-400" />
-      ) : (
-        <Moon size={20} className="text-gray-600 dark:text-gray-400" />
+      {mounted && (
+        resolvedTheme === 'dark' ? (
+          <Sun size={20} className="text-gray-600 dark:text-gray-400" />
+        ) : (
+          <Moon size={20} className="text-gray-600 dark:text-gray-400" />
+        )
       )}
     </button>
   )

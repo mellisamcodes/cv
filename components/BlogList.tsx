@@ -101,7 +101,7 @@ export default function BlogList({ posts, categories }: BlogListProps) {
               className="no-highlight block p-6 bg-white dark:bg-gray-900 border border-gray-100 dark:border-gray-800 rounded-xl shadow-sm hover:shadow-md hover:border-gray-200 dark:hover:border-gray-700 transition-all"
             >
               <div className="flex items-start justify-between gap-4 mb-2">
-                <h2 className="font-display text-xl lg:text-2xl text-gray-900 dark:text-gray-100">{post.title}</h2>
+                <h2 className="font-handwritten text-[20px] text-gray-900 dark:text-gray-100">{post.title}</h2>
                 <span className={`text-xs px-3 py-1 rounded-full whitespace-nowrap ${pillStyle}`}>
                   {categoryLabel}
                 </span>

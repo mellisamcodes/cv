@@ -152,7 +152,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                     className="no-highlight block p-5 bg-white dark:bg-gray-900 border border-gray-100 dark:border-gray-800 rounded-xl shadow-sm hover:shadow-md hover:border-gray-200 dark:hover:border-gray-700 transition-all"
                   >
                     <div className="flex items-start justify-between gap-3 mb-1">
-                      <h3 className="font-display text-lg text-gray-900 dark:text-gray-100">{relatedPost.title}</h3>
+                      <h3 className="font-handwritten text-[20px] text-gray-900 dark:text-gray-100">{relatedPost.title}</h3>
                       <span
                         className={`text-xs px-2 py-0.5 rounded-full whitespace-nowrap ${relatedStyle.classes}`}
                       >

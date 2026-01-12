@@ -36,8 +36,8 @@ sell online</p>
               height={32}
               className="h-8 w-8 object-contain"
             />
-            <h3 className="font-geist text-lg">
-              Marketing <span className="text-primary">Crafted</span>
+            <h3 className="font-geist text-lg font-bold">
+              Marketing<span style={{ color: '#5201ff' }}>Crafted</span>
             </h3>
             <span className="text-xs bg-yellow-100 dark:bg-yellow-900/50 text-yellow-700 dark:text-yellow-300 px-2 py-1 rounded-full inline-flex items-center gap-1.5">
               <span className="relative flex h-2 w-2">

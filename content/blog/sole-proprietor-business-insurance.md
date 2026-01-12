@@ -1,6 +1,7 @@
 ---
 title: "Sole Proprietor Business Insurance: A Simple Guide"
 description: "A guide to helping sole proprietors understand essential business insurance, real risks, and simple steps to protect both their work and personal assets."
+category: "business"
 date: "2026-01-12"
 image: "https://i.postimg.cc/D016NQWn/image.png"
 ---

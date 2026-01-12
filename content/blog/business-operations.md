@@ -1,6 +1,7 @@
 ---
 title: "Business Operations: How a Business Really Works (In Simple Words)"
 description: "Learn what business operations really are, why they matter, and how to improve them with simple steps, FAQs, and real-world examples."
+category: "business"
 date: "2026-01-12"
 image: "https://i.postimg.cc/CKM1twQ2/image.png"
 ---
